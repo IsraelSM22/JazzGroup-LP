@@ -1,0 +1,78 @@
+
+.content-subtitle{
+  font-family: OpenSansBold;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+
+.banner-section{
+  margin: 0 0 40px;
+
+  .main-title{
+    margin: 30px 0 0;
+  }
+
+  .main-description{
+    font-family: OpenSansBold, sans-serif;
+    font-size: 18px;
+
+  }
+}
+
+
+
+.mid-section{
+  margin: 0 0 30px;
+
+  .c-points-mid-section{
+    .instructions{
+      ol {
+        padding: 0 0 0 15px !important;
+        font-size: 18px;
+
+        li {
+          margin: 10px 0;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+  .due-date{
+    text-align: center;
+
+  }
+}
+
+
+
+.bottom-section{
+  margin: 0 0 30px;
+
+  .content-subtitle{
+    text-align: center;
+
+  }
+
+  .content-text{
+
+  }
+
+  .bottom-list{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+    .recipe-section{
+      font-family: OpenSansBold, sans-serif;
+      margin-bottom: 5px;
+
+      &.second-section, &.third-section{
+        display: block;
+        margin: 40px 0 0 0;
+      }
+    }
+  }
+}

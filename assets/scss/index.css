@@ -1,0 +1,40 @@
+.content-subtitle {
+  font-family: OpenSansBold;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto; }
+
+.banner-section {
+  margin: 0 0 40px; }
+  .banner-section .main-title {
+    margin: 30px 0 0; }
+  .banner-section .main-description {
+    font-family: OpenSansBold, sans-serif;
+    font-size: 18px; }
+
+.mid-section {
+  margin: 0 0 30px; }
+  .mid-section .c-points-mid-section .instructions ol {
+    padding: 0 0 0 15px !important;
+    font-size: 18px; }
+    .mid-section .c-points-mid-section .instructions ol li {
+      margin: 10px 0;
+      line-height: 30px; }
+  .mid-section .due-date {
+    text-align: center; }
+
+.bottom-section {
+  margin: 0 0 30px; }
+  .bottom-section .content-subtitle {
+    text-align: center; }
+  .bottom-section .bottom-list {
+    font-size: 18px;
+    margin-bottom: 10px; }
+    .bottom-section .bottom-list .recipe-section {
+      font-family: OpenSansBold, sans-serif;
+      margin-bottom: 5px; }
+      .bottom-section .bottom-list .recipe-section.second-section, .bottom-section .bottom-list .recipe-section.third-section {
+        display: block;
+        margin: 40px 0 0 0; }
+
+/*# sourceMappingURL=index.css.map */

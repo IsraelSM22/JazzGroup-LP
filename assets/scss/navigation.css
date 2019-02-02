@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Excellence_Bold;
+  src: url(../fonts/Excellence_Bold.ttf); }
+@font-face {
+  font-family: Excellence_Med;
+  src: url(../fonts/Excellence_Medium.ttf); }
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-Regular.ttf); }
+@font-face {
+  font-family: OpenSansBold;
+  src: url(../fonts/OpenSans-Bold.ttf); }
+.navbar {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2); }
+
+.nav-item {
+  font-family: OpenSansBold,sans-serif;
+  font-size: 16px; }
+
+/*# sourceMappingURL=navigation.css.map */
