@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+$BASE_URL = "/airfrance/";
+?>
+
 <head>
     <?php include __DIR__ . "/layouts/head.php"; ?>
     <link rel="stylesheet" href="assets/scss/index.css">
 
+
+    <style>
+        .home > a{
+            color: black !important;
+
+        }
+    </style>
+
 </head>
 
 <body>
+
+<div id="fb-root"></div>
 
 
 <!-- Including the navigation layout -->
@@ -20,11 +34,11 @@
         <!-- Title, Subtitle and main text container -->
         <div class="row text-center banner-section">
 
-            <div class="col-md-12 title-banner main-title">
+            <div class="col-md-12 title main-title">
                 AIR FRANCE GOURMET
             </div>
 
-            <div class="col-md-12 subtitle-banner main-subtitle">
+            <div class="col-md-12 subtitle main-subtitle">
                 En febrero México y Francia están más cerca de lo que
                 imaginas.
             </div>
@@ -45,16 +59,18 @@
     <div class="content-delimiter">
         <div class="row mid-section">
 
-            <div class="col-md-6 text-center">
-                <div class="c-video">
-                    VIDEO FORMATO VERTICAL (4:5, 1080x1350)
+            <div class="col-lg-7 text-center">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/yjrK1RxNd-E" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                 </div>
             </div>
 
-            <div class="col-md-6 c-points-mid-section">
+            <div class="col-lg-5 c-points-mid-section">
                 <div class="row container-points open-reg">
 
-                    <div class="col-md-12 content-text content-subtitle">
+                    <div class="col-md-12 section-title">
                         ¿CÓMO PARTICIPAR?
                     </div>
 
@@ -86,9 +102,9 @@
 
                     </div>
 
-                    <div class="col-md-12">
+                    <div class="col-md-12 hidden">
                         <div class="button-share content-text">
-                            SOCIAL MEDIA SHARE BUTTON
+
                         </div>
                     </div>
 
@@ -113,13 +129,13 @@
         <div class="row bottom-section">
 
 
-            <div class="col-md-12 content-text- content-subtitle">
+            <div class="col-md-12 subtitle prepare-coffee">
                 ¿CÓMO PREPARAR UNA CRÊPE?
             </div>
 
             <div class="col-md-12 bottom-list content-text">
-                <span class="recipe-section">Receta Crêpes(para 4 personas):</span>
-                <ul class="">
+                <div class="recipe-section">Receta Crêpes (para 4 personas):</div>
+                <ul class="lists">
                     <li class="content-text">250g de harina</li>
                     <li class="content-text">4 huevos</li>
                     <li class="content-text">½ L de leche</li>
@@ -138,11 +154,11 @@
 
 
             <div class="col-md-12 bottom-list">
-                <span class="recipe-section second-section">
+                <div class="recipe-section second-section">
                     La Crêpe la puedes rellenar de lo que gustes, puede ser:
-                </span>
+                </div>
 
-                <ul class="">
+                <ul class="lists">
                     <li class="content-text">Fruta fresca: fresas, moras, frambuesas, banano, mango, etc.</li>
                     <li class="content-text">Dulce de leche</li>
                     <li class="content-text">Crema de chocolate y avellanas</li>
@@ -161,31 +177,41 @@
             <div class="col-md-9 bottom-list">
                 <span class="recipe-section third-section">Preparación:</span>
 
-                <ol class="">
-                    <li class="content-text">Coloca en un tazón una taza y 1/2 de harina de trigo y una pizca de sal. Añade el
+                <ol class="lists">
+                    <li class="content-text">Coloca en un tazón una taza y 1/2 de harina de trigo y una pizca de sal.
+                        Añade el
                         huevo (clara y yema), bate con un batidor de globo.
                     </li>
-                    <li class="content-text">A la mezcla viértele la mitad de la taza de leche poco a poco y mezcla nuevamente
+                    <li class="content-text">A la mezcla viértele la mitad de la taza de leche poco a poco y mezcla
+                        nuevamente
                         con
                         el batidor, hasta que se incorporen los ingredientes.
                     </li>
-                    <li class="content-text">En el proceso de incorporación de los ingredientes añade el resto de la leche y
+                    <li class="content-text">En el proceso de incorporación de los ingredientes añade el resto de la
+                        leche y
                         bate
                         hasta deshacer los grumos.
                     </li>
-                    <li class="content-text">Agrega la mantequilla derretida e intégrala hasta dejar una mezcla homogénea.</li>
-                    <li class="content-text">Vierte una cucharada de mantequilla derretida o aceite en un sartén de teflón y
+                    <li class="content-text">Agrega la mantequilla derretida e intégrala hasta dejar una mezcla
+                        homogénea.
+                    </li>
+                    <li class="content-text">Vierte una cucharada de mantequilla derretida o aceite en un sartén de
+                        teflón y
                         espárcela por todo el espacio.
                     </li>
-                    <li class="content-text">Toma un poco de la preparación con un cucharón y vierte sobre el sartén poco a
+                    <li class="content-text">Toma un poco de la preparación con un cucharón y vierte sobre el sartén
+                        poco a
                         poco.
                         Gira la sartén para esparcir la mezcla en toda la sartén.
                     </li>
-                    <li class="content-text">Cocina la mezcla a fuego medio por 2 minutos o hasta que la crepa se despegue de
+                    <li class="content-text">Cocina la mezcla a fuego medio por 2 minutos o hasta que la crepa se
+                        despegue de
                         las
                         orillas.
                     </li>
-                    <li class="content-text">Voltea la crepa y cocina por 2 minutos más o hasta que se dore ligeramente.</li>
+                    <li class="content-text">Voltea la crepa y cocina por 2 minutos más o hasta que se dore
+                        ligeramente.
+                    </li>
                 </ol>
             </div>
             <div class="col-md-12 content-text">
@@ -202,7 +228,11 @@
 <div class="container-fluid">
     <!-- Legal info container -->
     <div class="content-delimiter">
-        <div class="col-md-12 text-center bottom-legal">LEGALES</div>
+        <div class="col-md-12 content-text bottom-legal">
+            <a href="<?php echo $BASE_URL;?>participaciones">
+                LEGALES
+            </a>
+        </div>
     </div>
 </div>
 
@@ -210,5 +240,6 @@
 
 
 </body>
+
 
 </html>

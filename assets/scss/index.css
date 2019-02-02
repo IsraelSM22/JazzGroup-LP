@@ -1,7 +1,56 @@
-.content-subtitle {
+body {
+  margin: 0; }
+
+@font-face {
+  font-family: Excellence_Bold;
+  src: url(../fonts/Excellence_Bold.ttf); }
+@font-face {
+  font-family: Excellence_Med;
+  src: url(../fonts/Excellence_Medium.ttf); }
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-Regular.ttf); }
+@font-face {
   font-family: OpenSansBold;
-  font-size: 20px;
+  src: url(../fonts/OpenSans-Bold.ttf); }
+.title {
+  font-size: 42px;
+  color: #051039;
+  font-family: "Excellence_Bold", sans-serif; }
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 36px; } }
+
+.subtitle {
+  font-size: 32px;
+  color: #051039;
+  line-height: 32px;
+  font-family: "Excellence_Med", sans-serif; }
+
+.section-title {
+  color: #051039;
+  font-family: Excellence_Med, sans-serif;
+  font-size: 32px;
   width: 80%;
+  margin: 0 auto; }
+
+.content-text {
+  color: #051039;
+  font-family: OpenSans, sans-serif;
+  font-size: 18px; }
+
+.hr-delimiter {
+  display: block;
+  border: 1px solid black;
+  opacity: .1;
+  margin: 20px 0 30px; }
+
+.button-share button {
+  width: 100%; }
+
+.content-delimiter {
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto; }
 
 .banner-section {
@@ -9,32 +58,56 @@
   .banner-section .main-title {
     margin: 30px 0 0; }
   .banner-section .main-description {
-    font-family: OpenSansBold, sans-serif;
-    font-size: 18px; }
+    margin-bottom: 40px; }
 
 .mid-section {
   margin: 0 0 30px; }
   .mid-section .c-points-mid-section .instructions ol {
-    padding: 0 0 0 15px !important;
-    font-size: 18px; }
+    padding: 0 0 0 15px !important; }
     .mid-section .c-points-mid-section .instructions ol li {
       margin: 10px 0;
       line-height: 30px; }
+      @media only screen and (max-width: 768px) {
+        .mid-section .c-points-mid-section .instructions ol li {
+          text-align: justify; } }
+  .mid-section .video-container {
+    position: relative; }
+    .mid-section .video-container iframe {
+      width: 560px;
+      max-width: 100%;
+      height: 315px;
+      margin: 0 auto; }
+      @media only screen and (max-width: 768px) {
+        .mid-section .video-container iframe {
+          margin-bottom: 20px; } }
   .mid-section .due-date {
     text-align: center; }
 
 .bottom-section {
   margin: 0 0 30px; }
-  .bottom-section .content-subtitle {
-    text-align: center; }
+  .bottom-section .prepare-coffee {
+    text-align: center;
+    margin-bottom: 10px; }
   .bottom-section .bottom-list {
     font-size: 18px;
     margin-bottom: 10px; }
     .bottom-section .bottom-list .recipe-section {
       font-family: OpenSansBold, sans-serif;
-      margin-bottom: 5px; }
+      margin-bottom: 10px; }
       .bottom-section .bottom-list .recipe-section.second-section, .bottom-section .bottom-list .recipe-section.third-section {
         display: block;
         margin: 40px 0 0 0; }
+    @media only screen and (max-width: 768px) {
+      .bottom-section .bottom-list .lists {
+        text-align: justify; } }
+
+.bottom-legal {
+  margin-bottom: 20px;
+  text-align: center; }
+  .bottom-legal a, .bottom-legal a:link, .bottom-legal a:visited {
+    font-family: "OpenSans", sans-serif;
+    color: #051039;
+    text-decoration: none;
+    cursor: pointer; }
 
 /*# sourceMappingURL=index.css.map */

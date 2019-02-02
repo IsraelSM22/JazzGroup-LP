@@ -1,9 +1,10 @@
 $colors: (
         main-blue: #051039,
 );
-$TITLE_SIZE: 38px;
+$TITLE_SIZE: 42px;
+$SECTION_TITLE_SIZE:32px;
 $SUBTITLE_SIZE: 32px;
-$CONTENT_FONT_SIZE: 24px;
+$CONTENT_FONT_SIZE: 18px;
 
 body {
     margin: 0;
@@ -34,16 +35,19 @@ body {
 
 }
 
-.title-banner{
+.title{
     font-size: $TITLE_SIZE;
     color: map_get($colors, main-blue);
-    line-height: 34px;
     font-family: "Excellence_Bold", sans-serif;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 36px;
+    }
 
 }
 
 
-.subtitle-banner{
+.subtitle{
     font-size: $SUBTITLE_SIZE;
     color: map_get($colors, main-blue);
     line-height: 32px;
@@ -52,24 +56,35 @@ body {
 }
 
 
-.content-subtitle{
+.section-title{
     color: map_get($colors, main-blue);
-    font-family: OpenSans, sans-serif;
+    font-family: Excellence_Med, sans-serif;
+    font-size: $SECTION_TITLE_SIZE;
+    width: 80%;
+    margin: 0 auto;
 
 }
 
 .content-text{
     color: map_get($colors, main-blue);
     font-family: OpenSans, sans-serif;
+    font-size: $CONTENT_FONT_SIZE;
 
 }
 
 
 .hr-delimiter{
+    display: block;
     border: 1px solid black;
     opacity: .1;
+    margin: 20px 0 30px;
 }
 
+.button-share{
+    button{
+        width: 100%;
+    }
+}
 
 // Sizing.
 .content-delimiter{

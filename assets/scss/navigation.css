@@ -15,6 +15,7 @@
 
 .nav-item {
   font-family: OpenSansBold,sans-serif;
-  font-size: 16px; }
+  font-size: 14px;
+  text-transform: capitalize; }
 
 /*# sourceMappingURL=navigation.css.map */

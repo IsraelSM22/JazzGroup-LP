@@ -13,29 +13,40 @@ body {
 @font-face {
   font-family: OpenSansBold;
   src: url(../fonts/OpenSans-Bold.ttf); }
-.title-banner {
-  font-size: 38px;
+.title {
+  font-size: 42px;
   color: #051039;
-  line-height: 34px;
   font-family: "Excellence_Bold", sans-serif; }
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 36px; } }
 
-.subtitle-banner {
+.subtitle {
   font-size: 32px;
   color: #051039;
   line-height: 32px;
   font-family: "Excellence_Med", sans-serif; }
 
-.content-subtitle {
+.section-title {
   color: #051039;
-  font-family: OpenSans, sans-serif; }
+  font-family: Excellence_Med, sans-serif;
+  font-size: 32px;
+  width: 80%;
+  margin: 0 auto; }
 
 .content-text {
   color: #051039;
-  font-family: OpenSans, sans-serif; }
+  font-family: OpenSans, sans-serif;
+  font-size: 18px; }
 
 .hr-delimiter {
+  display: block;
   border: 1px solid black;
-  opacity: .1; }
+  opacity: .1;
+  margin: 20px 0 30px; }
+
+.button-share button {
+  width: 100%; }
 
 .content-delimiter {
   max-width: 1200px;

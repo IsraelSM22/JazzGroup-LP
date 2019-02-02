@@ -21,16 +21,16 @@ $BASE_URL = "/airfrance/"
     </button>
     <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
         <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item active">
-                <a class="nav-link" href="<?php echo $BASE_URL;?>">Inicio <span class="sr-only">(current)</span></a>
+            <li class="nav-item home">
+                <a class="nav-link" href="<?php echo $BASE_URL;?>">INICIO</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo $BASE_URL;?>participaciones">Participaciones</a>
+            <li class="nav-item participations">
+                <a class="nav-link" href="<?php echo $BASE_URL;?>participaciones">PARTICIPACIONES</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo $BASE_URL;?>condiciones">Condiciones</a>
+            <li class="nav-item terms">
+                <a class="nav-link" href="<?php echo $BASE_URL;?>condiciones">CONDICIONES</a>
             </li>
         </ul>
     </div>

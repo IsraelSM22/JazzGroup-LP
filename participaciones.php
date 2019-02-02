@@ -5,6 +5,13 @@
     <?php include __DIR__ . "/layouts/head.php"; ?>
     <link rel="stylesheet" href="assets/scss/participations.css">
 
+    <style>
+        .participations > a{
+            color: black !important;
+
+        }
+    </style>
+
 </head>
 
 <body>
@@ -16,7 +23,7 @@
 <div class="content-delimiter fs60" style="width: 100%; max-width:1200px; margin: 0 auto;">
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-md-12 title-banner">PARTICIPACIONES</div>
+            <div class="col-md-12 title">PARTICIPACIONES</div>
             <div class="col-md-12">
                 <!-- Stackla Widget Embed Code (start) -->
                 <div class="stackla-widget" data-alias="airfrance.stackla.com" data-ct="" data-hash="5c473eb0ecf15"
