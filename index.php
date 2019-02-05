@@ -77,7 +77,7 @@ $BASE_URL = "/";
                     <div class="col-md-12 content-text instructions">
 
                         <ol>
-                            <li>Prepara tu propia receta de Crêpes y ponle untoque
+                            <li>Prepara tu propia receta de Crêpes y ponle un toque
                                 creativo al uso de ingredientes y
                                 presentación.
                             </li>
@@ -93,10 +93,10 @@ $BASE_URL = "/";
                             </li>
 
                             <li>
-                                Un jurado elegirá las cinco recetas más creativas que participarán en la gran final, los
+                                Un jurado elegirá las tres recetas más creativas que participarán en la gran final, los
                                 seleccionados tendrán que preparar su Crêpe en vivo ante nuestros jueces para
                                 seleccionar al
-                                ganador que se llevará 2 boletos redondos a Paris, Francia.
+                                ganador que se llevará 2 boletos redondos a París, Francia.
                             </li>
                         </ol>
 
@@ -148,14 +148,14 @@ $BASE_URL = "/";
                     <span class="content-text">
                         Si lo deseas puedes agregar aroma a base de vainilla, azahar (flor del naranjo) o algún
                         ingrediente
-                        sorpresa que consideres ¡Se creativo!
+                        sorpresa que consideres ¡Sé creativo!
                     </span>
             </div>
 
 
             <div class="col-md-12 bottom-list">
                 <div class="recipe-section second-section">
-                    La Crêpe la puedes rellenar de lo que gustes, puede ser:
+                    Rellena la crêpe con lo que gustes, puede ser:
                 </div>
 
                 <ul class="lists">
@@ -178,7 +178,7 @@ $BASE_URL = "/";
                 <span class="recipe-section third-section">Preparación:</span>
 
                 <ol class="lists">
-                    <li class="content-text">Coloca en un tazón una taza y 1/2 de harina de trigo y una pizca de sal.
+                    <li class="content-text">Coloca en un tazón 1 taza y 1/2 de harina de trigo y una pizca de sal.
                         Añade el
                         huevo (clara y yema), bate con un batidor de globo.
                     </li>
@@ -199,7 +199,7 @@ $BASE_URL = "/";
                         teflón y
                         espárcela por todo el espacio.
                     </li>
-                    <li class="content-text">Toma un poco de la preparación con un cucharón y vierte sobre el sartén
+                    <li class="content-text">Toma un poco de la preparación con un cucharón y vierte sobre la sartén
                         poco a
                         poco.
                         Gira la sartén para esparcir la mezcla en toda la sartén.
