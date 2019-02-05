@@ -51,7 +51,7 @@
     <div class="content-delimiter fs60" style="width: 100%; max-width:1200px; margin: 0 auto;">
         <div class="container-fluid ">
             <div class="row">
-                <div class="col-md-12 text-center exe_Bold">Participaciones</div>
+                <div class="col-md-12 text-center exe_Bold">PARTICIPACIONES</div>
                 <div class="col-md-12">
                     <!-- Stackla Widget Embed Code (start) -->
                     <div class="stackla-widget" data-alias="airfrance.stackla.com" data-ct="" data-hash="5c473eb0ecf15"
