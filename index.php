@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-$BASE_URL = "/airfrance/";
+$BASE_URL = "/";
 ?>
 
 <head>
@@ -96,7 +96,7 @@ $BASE_URL = "/airfrance/";
                                 Un jurado elegirá las cinco recetas más creativas que participarán en la gran final, los
                                 seleccionados tendrán que preparar su Crêpe en vivo ante nuestros jueces para
                                 seleccionar al
-                                ganador que se llevará 2 boletos redondosa Paris, Francia.
+                                ganador que se llevará 2 boletos redondos a Paris, Francia.
                             </li>
                         </ol>
 
@@ -229,7 +229,7 @@ $BASE_URL = "/airfrance/";
     <!-- Legal info container -->
     <div class="content-delimiter">
         <div class="col-md-12 content-text bottom-legal">
-            <a href="<?php echo $BASE_URL;?>participaciones">
+            <a href="<?php echo $BASE_URL;?>condiciones">
                 LEGALES
             </a>
         </div>

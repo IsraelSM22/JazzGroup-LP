@@ -6,12 +6,12 @@
  * Time: 14:07
  */
 
-$BASE_URL = "/airfrance/"
+$BASE_URL = "/"
 
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?php echo $BASE_URL;?>">
         <img src="<?php echo $BASE_URL ?>assets/images/logo-airfrance.svg" width="250"
              alt="Jazz Group">
     </a>
